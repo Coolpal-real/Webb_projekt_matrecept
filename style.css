@@ -1,8 +1,8 @@
 body{
     display: grid;
     grid-template-columns: 3fr 3fr 4fr;
-    grid-template-rows: 30vh 30vh 30vh 10vh;
-    gap: 10px;
+    grid-template-rows: 25vh 25vh 25vh 10vh;
+    gap: 20px;
     grid-template-areas: 
     "header header header-img"
     "ingredients instructions ingredients-img"
@@ -26,7 +26,8 @@ body{
 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    background-color: #14AE5C;
 }
 .header-img img
 {
@@ -35,12 +36,14 @@ body{
     object-fit: contain;
     min-width: 0;
     min-height: 0;
+    background-color: #0DECC0;
 }
 .ingredients
 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    background-color: #FCDDEC;
 }
 .ingredients-img img
 {
@@ -49,16 +52,23 @@ body{
     object-fit: contain;
     min-width: 0;
     min-height: 0;
+    background-color: #AB191C;
 }
 .instructions
 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    background-color: #16B5F4;
+}
+.instructions li
+{
+    color: white;
 }
 .footer
 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #F49300;
 }
