@@ -11,7 +11,6 @@ body{
 .grid-container
 {
     display: grid;
-
 }
 
 .header { grid-area: header;}
@@ -21,6 +20,13 @@ body{
 .ingredients-img { grid-area: ingredients-img;}
 .footer { grid-area: footer;}
 
+
+.header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .header-img img
 {
     width: 100%;
@@ -28,4 +34,22 @@ body{
     object-fit: contain;
     min-width: 0;
     min-height: 0;
+}
+.ingredients
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.instructions
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
