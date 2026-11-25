@@ -1,0 +1,25 @@
+body{
+    display: grid;
+    grid-template-columns: 3fr 3fr 4fr;
+    grid-template-rows: 30vh 60vh 10vh;
+    gap: 10px;
+    grid-template-areas: 
+    "header header header-img"
+    "ingredients instructions ingredients-img"
+    "footer footer footer";
+}
+.grid-container
+{
+    display: grid;
+
+}
+
+.header { grid-area: header;}
+.header-img { grid-area: header-img;}
+.ingredients { grid-area: ingredients;}
+.instructions { grid-area: instructions;}
+.ingredients-img { grid-area: ingredients-img;}
+.footer { grid-area: footer;}
+header{
+    background-color: #14AE5C;
+}
