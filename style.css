@@ -78,6 +78,7 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: #F49300;
+    text-align: center;
 }
 .footer p
 {
